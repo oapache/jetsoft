@@ -1,6 +1,6 @@
-# Jetsoft Clone — Design System
+# Jetsoft — Design System
 
-> Fonte visual: reprodução orientada pela referência fornecida em `https://jetsoft.com.br/`. Este documento descreve o mundo visual do clone e os tokens que o implementam.
+> Fonte visual: implementação orientada pela referência pública `https://jetsoft.com.br/`. Este documento descreve a direção visual desta versão do site e os tokens que a implementam.
 
 ## 1. Direção visual
 

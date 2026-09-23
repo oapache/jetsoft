@@ -27,7 +27,7 @@ Site institucional público, acessado principalmente em desktop e mobile, com na
 - A página precisa ser uma experiência institucional de uma rota, com navegação por âncoras.
 - O conteúdo visual deve manter a identidade Jetsoft observada na referência: azul-marinho, ciano, dados/tecnologia e tipografia editorial.
 - O layout deve permanecer legível e operável em desktop e mobile.
-- Os dados numéricos, clientes e textos são reproduções da referência para fins de clone visual; não adicionar novas alegações.
+- Os dados numéricos, clientes e textos seguem a referência pública; não adicionar novas alegações.
 
 ## Brand Commitments
 
@@ -40,7 +40,7 @@ Site institucional público, acessado principalmente em desktop e mobile, com na
 
 - Referência oficial: https://jetsoft.com.br/
 - Conteúdo, composição e assets observados na referência oficial.
-- Assets locais em `public/jetsoft/` para o clone funcionar sem depender de hotlinking.
+- Assets locais em `public/jetsoft/` para a página funcionar sem depender de hotlinking.
 
 ## Product Principles
 
