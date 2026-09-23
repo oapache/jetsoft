@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "mode": "persuade",
+  "visualThesis": "Uma infraestrutura viva de tecnologia: navy profundo, ciano como sinal de evolução e mídia de dados como matéria de transformação.",
+  "tokens": {
+    "color": {
+      "navy950": "#04101f",
+      "navy900": "#07182b",
+      "navy800": "#09253a",
+      "blue700": "#0b7ca9",
+      "cyan400": "#20c9dd",
+      "ink100": "#eff7f7",
+      "muted300": "#9bb1bb",
+      "darkText": "#113044",
+      "darkMuted": "#55717b",
+      "paper": "#f4f7f6",
+      "lineDark": "rgba(155,205,216,0.20)",
+      "lineLight": "rgba(17,48,68,0.15)"
+    },
+    "typography": {
+      "display": "Space Grotesk",
+      "body": "DM Sans",
+      "hero": "clamp(3rem, 7vw, 6.55rem)",
+      "displayTracking": "-0.055em",
+      "bodyLeading": "1.7"
+    },
+    "layout": {
+      "shell": "1180px",
+      "desktopGutter": "32px",
+      "sectionPadding": "132px 0",
+      "mobileGutter": "20px"
+    },
+    "motion": {
+      "standardEase": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "heroInterval": "6500ms",
+      "reducedMotion": true
+    }
+  }
+}
