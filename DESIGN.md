@@ -16,7 +16,7 @@
 
 1. **Hero** — uma promessa e uma ação, com imagem de tecnologia em tela cheia.
 2. **Pilares** — JetERP, JetBPM e JetECM como vocabulário de entrada.
-3. **Quem somos** — especialidade e atendimento humano, com acordeão.
+3. **Quem somos** — sub-hero editorial com título, imagem humana e três diferenciais em acordeão.
 4. **Resultados** — fidelização e três consequências práticas.
 5. **Casos de sucesso** — prova narrativa com navegação entre parceiros.
 6. **Confiança construída** — quantidade de empresas e faixa contínua de logos.
@@ -38,6 +38,7 @@ Os tokens executáveis ficam em `src/design/tokens.css`. O nome do token é a AP
 | `--jet-color-navy-800` | `#09253a` | Seções alternadas e painéis de conteúdo |
 | `--jet-color-blue-700` | `#0b7ca9` | Ação primária, links de contato e navegação |
 | `--jet-color-cyan-400` | `#20c9dd` | Accent, foco, estados ativos e sinal de inovação |
+| `--jet-color-whatsapp` | `#25d366` | Verde oficial reservado à ação de contato do WhatsApp |
 | `--jet-color-white` | `#ffffff` | Texto primário sobre fundo escuro |
 | `--jet-color-ink-100` | `#eff7f7` | Texto principal suavizado |
 | `--jet-color-muted-300` | `#9bb1bb` | Texto secundário sobre fundo escuro |
@@ -109,9 +110,9 @@ Display headings use `letter-spacing: -0.055em` to `-0.07em`, line-height betwee
 
 ## 7. Imagem e tratamento
 
-- Hero: fotografia/arte de dados em `cover`, com overlay navy para legibilidade.
+- Hero: arte de dados em `cover`, com overlay navy para legibilidade. JetERP usa `hero-loop-seamless.mp4`; JetBPM usa `hero-2-loop.mp4`, com brilho e saturação suavizados para preservar o clima marinho. Cada vídeo usa sua imagem como poster/fallback; o terceiro slide permanece estático.
 - Imagens de solução: recorte `cover` em moldura de 210px; hover faz escala sutil `1.04`.
-- Logos: `object-fit: contain`, baixa saturação por padrão e saturação total no hover.
+- Logos de cases ficam centralizados em uma base branca para manter as cores oficiais legíveis sobre navy. A faixa de parceiros preserva as cores e a opacidade originais dos assets; ambos usam `object-fit: contain`.
 - Foto institucional: contraste controlado e saturação reduzida para não competir com o conteúdo.
 - Assets são locais em `public/jetsoft/`; a interface não depende de hotlinking.
 
@@ -122,6 +123,7 @@ Display headings use `letter-spacing: -0.055em` to `-0.07em`, line-height betwee
 - Carrossel avança a cada 6.5s.
 - Troca manual pelos três indicadores.
 - Entrada da imagem usa zoom suave de `1.04` para `1`.
+- Os vídeos decorativos dos slides JetERP e JetBPM ficam mudos e em loop, pausando fora da viewport, com a aba oculta ou quando a pessoa prefere movimento reduzido.
 
 ### Scroll
 
